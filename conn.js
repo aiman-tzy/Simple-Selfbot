@@ -140,7 +140,7 @@ module.exports = async (conn, msg, m, setting, store) => {
             body: isi,
             mediaType: 1,
             thumbnail: fs.readFileSync('./sticker/adreply.jpg'),
-            sourceUrl: 'https://github.com/dragneel1111/Simple-Selfbot'
+            sourceUrl: 'https://manzxx.biz.id'
           }
         }
       },
@@ -162,7 +162,7 @@ module.exports = async (conn, msg, m, setting, store) => {
             mediaType: 1,
             renderLargerThumbnail: true,
             thumbnail: fs.readFileSync('./sticker/menu.jpg'),
-            sourceUrl: 'https://github.com/dragneel1111/Simple-Selfbot'
+            sourceUrl: 'https://manzxx.biz.id'
           }
         }
       },
@@ -292,8 +292,8 @@ module.exports = async (conn, msg, m, setting, store) => {
 • Prefix : ${prefix}
 • Creator : ${setting.ownerName}
 • Runtime : ${runtime(process.uptime())}
-• Source Code :
-https://github.com/dragneel1111/Simple-Selfbot
+• Website owner :
+https://manzxx.biz.id
 `,
         `${tanggal}`, `${jam}`)
       console.log(color(`[ SELFBOT ONLINE || RUNTIME: ${runtime(process.uptime())} ] ${tanggal}`, 'cyan'))
@@ -330,7 +330,7 @@ https://github.com/dragneel1111/Simple-Selfbot
           cptn += `• ${prefix}reply\n`
           cptn += `• ${prefix}readmore\n`
           cptn += `• ${prefix}hidetag\n\n`
-          cptn += `${setting.wm}\n_Create by @Rafly͘~_\n_Since 01-12-2020_`
+          cptn += `${setting.wm}\n_Create by @Manz~_\n_Since 01-12-2020_`
           adReply2(cptn, setting.wm, setting.botName)
         } else if (q.includes('owner')) {
           var cptn = `_Owner Tools_\n`
